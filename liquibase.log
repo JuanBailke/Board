@@ -1,0 +1,27 @@
+2025-08-30T17:35:40.602-03:00  INFO 19620 --- [board] [           main] liquibase.changelog                      : Reading resource: db/changelog/migrations/db.changelog-202508301607.sql
+2025-08-30T17:35:40.759-03:00  INFO 19620 --- [board] [           main] liquibase.changelog                      : Reading from board.DATABASECHANGELOG
+2025-08-30T17:35:40.822-03:00  INFO 19620 --- [board] [           main] liquibase.lockservice                    : Successfully acquired change log lock
+2025-08-30T17:35:40.824-03:00  INFO 19620 --- [board] [           main] liquibase.command                        : Using deploymentId: 6586140333
+2025-08-30T17:35:40.826-03:00  INFO 19620 --- [board] [           main] liquibase.changelog                      : Reading from board.DATABASECHANGELOG
+Running Changeset: db/changelog/migrations/db.changelog-202508301607.sql::202508301607::juan
+2025-08-30T17:35:40.891-03:00  INFO 19620 --- [board] [           main] liquibase.changelog                      : Custom SQL executed
+2025-08-30T17:35:40.893-03:00  INFO 19620 --- [board] [           main] liquibase.changelog                      : ChangeSet db/changelog/migrations/db.changelog-202508301607.sql::202508301607::juan ran successfully in 42ms
+
+UPDATE SUMMARY
+Run:                          1
+Previously run:               0
+Filtered out:                 0
+-------------------------------
+Total change sets:            1
+
+2025-08-30T17:35:40.908-03:00  INFO 19620 --- [board] [           main] liquibase.util                           : UPDATE SUMMARY
+2025-08-30T17:35:40.908-03:00  INFO 19620 --- [board] [           main] liquibase.util                           : Run:                          1
+2025-08-30T17:35:40.908-03:00  INFO 19620 --- [board] [           main] liquibase.util                           : Previously run:               0
+2025-08-30T17:35:40.908-03:00  INFO 19620 --- [board] [           main] liquibase.util                           : Filtered out:                 0
+2025-08-30T17:35:40.908-03:00  INFO 19620 --- [board] [           main] liquibase.util                           : -------------------------------
+2025-08-30T17:35:40.908-03:00  INFO 19620 --- [board] [           main] liquibase.util                           : Total change sets:            1
+2025-08-30T17:35:40.909-03:00  INFO 19620 --- [board] [           main] liquibase.util                           : Update summary generated
+2025-08-30T17:35:40.910-03:00  INFO 19620 --- [board] [           main] liquibase.command                        : Update command completed successfully.
+Liquibase: Update has been successful. Rows affected: 1
+2025-08-30T17:35:40.918-03:00  INFO 19620 --- [board] [           main] liquibase.lockservice                    : Successfully released change log lock
+2025-08-30T17:35:40.919-03:00  INFO 19620 --- [board] [           main] liquibase.command                        : Command execution complete
